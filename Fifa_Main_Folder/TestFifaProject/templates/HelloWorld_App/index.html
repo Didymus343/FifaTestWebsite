@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sheep Page</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css"%}"/>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <h2>This is the index.html and it contains a SHEEP</h2>
+    <img src="{% static "images/sheep.jpg" %}" alt="OOHPS, no sheep!">
+    {{ insert_me }}
+  </body>
+</html>
